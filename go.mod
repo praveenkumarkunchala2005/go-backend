@@ -1,6 +1,6 @@
 module backend-task
 
-go 1.25.5
+go 1.25
 
 require (
 	github.com/go-playground/validator/v10 v10.29.0
