@@ -11,7 +11,7 @@ this serives manages user data and suports CRUD operations along with paginated 
 - go-playground/validator 
 
 # Project Structure
-
+```
 /cmd/server/main.go
 /config/
 /db/migrations/
@@ -25,6 +25,7 @@ this serives manages user data and suports CRUD operations along with paginated 
 ├── middleware/
 ├── models/
 └── logger/
+```
 
 # Setup Instructions
 1. Clone the repository
@@ -48,7 +49,7 @@ The List Users endpoint supports pagination through query parameters:
 The response includes the current page, limit, total number of users, and the list of users for the requested page.
 # Example Request
 GET /users?page=2&limit=5
-
+```
 Response:
 {
   "page": 1,
@@ -60,7 +61,10 @@ Response:
       "name": "John Doe",
       "dob": "1990-05-15",
       "age": 33
-    },
+    }
   ]
 }
+```
+
+
 
